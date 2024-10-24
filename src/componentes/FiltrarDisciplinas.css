@@ -1,0 +1,32 @@
+.filtro-container {
+    background-color: #1e1e1e; 
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px; 
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    position: relative;
+}
+
+.filtro-container label {
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    left: 15px; 
+}
+
+.filtro-container select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3b3b3b; 
+    color: white; 
+    font-size: 1rem;
+    cursor: pointer;
+    margin-left: auto; 
+}
